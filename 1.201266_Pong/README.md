@@ -16,7 +16,6 @@ Este curso abordou os seguintes tópicos:
 ## Links
 
 - <a href="https://scratch.mit.edu/projects/831905696">Projeto no Scratch</a>
-<br>
 - <a href="https://editor.p5js.org/taohansens/full/QWQyWA_Ek">Projeto Js no P5.Js</a>
 
 ------
