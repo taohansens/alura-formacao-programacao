@@ -18,6 +18,7 @@
    Lógica de programação: comece em lógica com o jogo Pong e JavaScript**</a>
 - <a href="/2.201267_Freeway">**Lógica de programação: laços e listas com JavaScript**</a>
 - <a href="/3.HtmlCss">**Cursos de HTML+CSS da trilha (4 cursos, mesmo projeto)**</a>
+- <a href="/4.202267_JSWeb">**JavaScript para Web: Crie páginas dinâmicas**</a>
 
 `Dentro de cada diretório há o README com o detalhamento e certificado do respectivo curso.`
 
