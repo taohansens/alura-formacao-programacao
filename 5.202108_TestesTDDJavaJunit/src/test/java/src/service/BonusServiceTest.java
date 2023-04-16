@@ -13,16 +13,14 @@ import java.math.RoundingMode;
 public class BonusServiceTest {
 
     @Test
-    void bonusShouldBeZeroWhenEmployeeEarnMoreThan1000() {
-        BonusService service = new BonusService();
+    void bonusShouldThrowIllegalArgumentExceptionEarnMoreThan1000() {
+        Assertions.assertThrows(IllegalArgumentException.class, () -> {
+            BonusService service = new BonusService();
+            Funcionario funcionario = Factory.createFuncionario(25000.0);
+            BigDecimal expected = new BigDecimal(0).setScale(2, RoundingMode.HALF_UP);;
 
-        Funcionario funcionario = Factory.createFuncionario(25000.0);
-
-        BigDecimal expected = new BigDecimal(0).setScale(2, RoundingMode.HALF_UP);;
-
-        BigDecimal bonus = service.calcularBonus(funcionario);
-
-        Assertions.assertEquals(expected, bonus);
+            BigDecimal bonus = service.calcularBonus(funcionario);
+        });
     }
 
     @Test
