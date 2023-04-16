@@ -27,4 +27,7 @@ public class Funcionario {
 		return salario;
 	}
 
+	public void reajustarSalario(BigDecimal valorReajuste) {
+		salario = salario.add(valorReajuste);
+	}
 }
